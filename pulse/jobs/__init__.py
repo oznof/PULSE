@@ -1,4 +1,7 @@
 from .io import IO
+from .pendingio import PendingIO
+from .registerio import RegisterIO
+from .job import Job
 
 fix_path = IO.fix_path
 join_path = IO.join_path
@@ -29,6 +32,9 @@ is_in_txt = IO.is_in_txt
 show_sep = IO.show_sep
 
 __all__ = ['IO',
+           'PendingIO',
+           'RegisterIO',
+           'Job',
            'fix_path',
            'join_path',
            'split_path',

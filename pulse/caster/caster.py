@@ -505,7 +505,7 @@ class Caster:
     @classmethod
     def to_type(cls, type, *args):
         return [type(arg) for arg in args]
-
+    
     @classmethod
     def to_types(cls, types, *args, **kwargs):
         return [t(a) for t, a in zip(cls.to_sized_list(types, len(args), **kwargs), args)]

@@ -67,7 +67,7 @@ __all__ = ['Caster',
            'try_str_to_bool_or_number',
            'is_bool_or_number',
            'value_from_str',
-           'replace_value_in_str'
+           'replace_value_in_str',
            'module_obj_to_str',
            'named_value_to_str',
            'value_to_str',
